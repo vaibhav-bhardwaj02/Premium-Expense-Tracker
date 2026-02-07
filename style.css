@@ -93,3 +93,17 @@ body{
     color:#ff5b6b;
 }
 
+/* Navbar */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 20px;
+  background:linear-gradient(90deg,#2A0A45,#00E5FF);
+  border-bottom:2px solid #00f0ff;
+}
+.navbar .logo{
+    font-weight:800;
+    font-size:20px;
+}
+
