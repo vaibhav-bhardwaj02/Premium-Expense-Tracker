@@ -122,3 +122,33 @@ body{
     color:#000c1a;
 }
 
+.nav-actions{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.nav-actions button{
+  padding:8px 12px;
+  border:none;
+  border-radius:8px;
+  background:#000c1a;
+  color:#fff;
+  cursor:pointer;
+  transition:.2s;
+}
+.nav-actions button:hover{
+    transform:translateY(-1px);
+}
+.nav-select{
+  padding:8px;
+  border:none;
+  border-radius:8px;
+  background:rgba(0,0,0,.2);
+  color:#fff;
+  outline:none;
+}
+.nav-download{
+  background:linear-gradient(90deg,#00f0ff,#7b61ff);
+  color:#000;
+  font-weight:700;
+}
