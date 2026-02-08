@@ -166,3 +166,11 @@ section h2{
     margin-bottom:12px;
     color:#00f0ff;
 }
+
+.card{
+  background:rgba(255,255,255,.06);
+  padding:20px;
+  border-radius:14px;
+  backdrop-filter:blur(10px);
+  box-shadow:0 12px 24px rgba(0,0,0,.2);
+}
