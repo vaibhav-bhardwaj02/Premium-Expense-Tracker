@@ -174,3 +174,11 @@ section h2{
   backdrop-filter:blur(10px);
   box-shadow:0 12px 24px rgba(0,0,0,.2);
 }
+
+/* Overview layout */
+.overview-layout{
+    display:flex;
+    gap:22px;
+    flex-wrap:wrap;
+    align-items:flex-start;
+}
