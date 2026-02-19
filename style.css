@@ -188,3 +188,8 @@ section h2{
     max-height:420px;
     overflow-y:auto;
 }
+.history-card h3{
+    margin-bottom:10px;
+    color:#7b61ff;
+    font-weight:700;
+}
