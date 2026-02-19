@@ -196,3 +196,14 @@ section h2{
 #historyList{
     list-style:none;
 }
+#historyList li{
+   padding:10px 12px;
+   background:rgba(255,255,255,.08);
+   margin-bottom:8px;
+   border-radius:10px;
+  font-size:14px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  animation:slideIn .25s ease;
+}
