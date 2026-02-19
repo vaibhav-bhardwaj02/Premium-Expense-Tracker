@@ -193,3 +193,6 @@ section h2{
     color:#7b61ff;
     font-weight:700;
 }
+#historyList{
+    list-style:none;
+}
