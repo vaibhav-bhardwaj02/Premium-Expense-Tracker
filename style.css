@@ -207,3 +207,4 @@ section h2{
   align-items:center;
   animation:slideIn .25s ease;
 }
+@keyframes slideIn{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:translateY(0);}}
