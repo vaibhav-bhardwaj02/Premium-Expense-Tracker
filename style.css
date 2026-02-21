@@ -226,4 +226,11 @@ section h2{
     gap:8px;
     margin-bottom:12px;
 }
+.stat-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:rgba(255,255,255,.08);
+  padding:10px 12px;border-radius:10px;
+}
 
