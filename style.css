@@ -233,4 +233,12 @@ section h2{
   background:rgba(255,255,255,.08);
   padding:10px 12px;border-radius:10px;
 }
+.stat-label{
+    color:#bcd7ff;
+}
+.stat-value{
+    color:#fff;
+    font-weight:800;
+}
+
 
