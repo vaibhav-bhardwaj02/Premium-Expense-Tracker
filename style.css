@@ -240,5 +240,11 @@ section h2{
     color:#fff;
     font-weight:800;
 }
+.pie-wrap{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:8px;
+}
 
 
