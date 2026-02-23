@@ -260,6 +260,16 @@ section h2{
     align-items:center;
     margin-bottom:12px;
 }
+.line-card h3{
+    color:#7b61ff;
+    font-weight:800;
+}
+.line-controls{
+    display:flex;
+    gap:8px;
+    align-items:center;
+}
+
 
 
 
