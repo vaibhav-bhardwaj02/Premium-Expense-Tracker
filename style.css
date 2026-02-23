@@ -246,5 +246,9 @@ section h2{
     align-items:center;
     padding:8px;
 }
+.pie-wrap canvas{
+    width:260px !important;
+    height:260px !important;}
+
 
 
