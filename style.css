@@ -250,5 +250,16 @@ section h2{
     width:260px !important;
     height:260px !important;}
 
+    /* Large line chart card */
+.line-card{
+    padding:24px;
+}
+.line-card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:12px;
+}
+
 
 
