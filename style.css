@@ -276,6 +276,15 @@ section h2{
   background:rgba(0,0,0,.4);color:#fff;
 }
 
+#lineOverview{display:none;}
+#lineOverview:focus,#overviewLineType:focus{box-shadow:0 0 0 2px #7b61ff55;}
+.line-card canvas{
+  width:100% !important;
+  height:380px !important;
+  background:transparent; 
+  border-radius:10px;
+}
+
 
 
 
