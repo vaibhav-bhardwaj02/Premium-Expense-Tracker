@@ -285,6 +285,12 @@ section h2{
   border-radius:10px;
 }
 
+/* Chart cards */
+.chart-card{
+    height:280px;
+    margin-bottom:12px;
+}
+canvas{user-select:none;}
 
 
 
