@@ -292,5 +292,12 @@ section h2{
 }
 canvas{user-select:none;}
 
+/* Forms (Income/Expense) */
+.form{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    align-items:center;
+}
 
 
