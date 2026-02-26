@@ -306,5 +306,15 @@ canvas{user-select:none;}
     flex:1;
     min-width:220px;
 }
+.glow-input{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:10px;
+  background:rgba(0,0,0,.4);
+  color:#fff;
+  outline:none;
+  transition:.2s;
+}
 
 
