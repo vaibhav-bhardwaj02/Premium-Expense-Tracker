@@ -299,5 +299,12 @@ canvas{user-select:none;}
     flex-wrap:wrap;
     align-items:center;
 }
+.big-form{
+    gap:12px;
+}
+.input-group{
+    flex:1;
+    min-width:220px;
+}
 
 
