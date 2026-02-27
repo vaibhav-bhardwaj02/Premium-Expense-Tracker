@@ -327,5 +327,9 @@ canvas{user-select:none;}
   cursor:pointer;
   transition:.25s;
 }
+.primary-add{
+    background:linear-gradient(90deg,#00f0ff,#7b61ff);color:#000;
+}
+
 
 
