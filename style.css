@@ -330,6 +330,10 @@ canvas{user-select:none;}
 .primary-add{
     background:linear-gradient(90deg,#00f0ff,#7b61ff);color:#000;
 }
+.accent-add{
+  background:linear-gradient(90deg,#ff5b6b,#ff9800);
+  color:#fff;
+}
 
 
 
