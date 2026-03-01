@@ -347,3 +347,15 @@ canvas{user-select:none;}
   70%{box-shadow:0 0 0 14px rgba(123,97,255,0);}
   100%{box-shadow:0 0 0 0 rgba(123,97,255,0);}
 }
+/* Lists */
+ul{list-style:none;}
+
+ul li{
+  padding:10px 12px;
+  background:rgba(255,255,255,.07);
+  margin-bottom:8px;
+  border-radius:10px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
