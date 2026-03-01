@@ -342,4 +342,8 @@ canvas{user-select:none;}
 .pulse-btn{
   animation:pulse 2.2s infinite;
 }
-
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 rgba(123,97,255,.4);}
+  70%{box-shadow:0 0 0 14px rgba(123,97,255,0);}
+  100%{box-shadow:0 0 0 0 rgba(123,97,255,0);}
+}
