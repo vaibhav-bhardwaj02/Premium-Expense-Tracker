@@ -18,4 +18,7 @@ document.getElementById("registerBtn").addEventListener("click", () => {
     "Please fill all required fields!";
   return;
 }
+
+document.getElementById("registerPage").style.display = "none";
+document.getElementById("dashboard").style.display = "block";
 });
