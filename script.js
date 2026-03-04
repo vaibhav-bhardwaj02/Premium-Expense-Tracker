@@ -12,4 +12,10 @@ document.getElementById("registerBtn").addEventListener("click", () => {
   const name = document.getElementById("regName").value;
   const email = document.getElementById("regEmail").value;
   const profession = document.getElementById("regProfession").value;
+
+  if (!name || !email || !profession) {
+  document.getElementById("regMessage").innerText =
+    "Please fill all required fields!";
+  return;
+}
 });
