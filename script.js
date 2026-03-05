@@ -22,7 +22,6 @@ document.getElementById("registerBtn").addEventListener("click", () => {
 document.getElementById("registerPage").style.display = "none";
 document.getElementById("dashboard").style.display = "block";
 });
-
 // Navbar Navigation
 document.querySelectorAll(".nav-links a").forEach(link => {
   link.addEventListener("click", e => {
