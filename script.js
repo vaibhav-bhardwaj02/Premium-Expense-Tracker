@@ -28,5 +28,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
   link.addEventListener("click", e => {
     e.preventDefault();
     const section = link.getAttribute("data-section");
+    document.querySelectorAll("main section").forEach(sec => sec.style.display = "none");
+    document.querySelector("." + section).style.display = "block";
   });
 });
