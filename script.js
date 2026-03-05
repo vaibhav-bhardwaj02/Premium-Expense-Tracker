@@ -27,5 +27,6 @@ document.getElementById("dashboard").style.display = "block";
 document.querySelectorAll(".nav-links a").forEach(link => {
   link.addEventListener("click", e => {
     e.preventDefault();
+    const section = link.getAttribute("data-section");
   });
 });
