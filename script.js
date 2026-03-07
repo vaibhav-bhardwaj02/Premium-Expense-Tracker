@@ -33,3 +33,15 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 });
 // Charts 
 const ctxLine = document.getElementById("overviewLine").getContext("2d");
+let lineChart = new Chart(ctxLine, {
+  type: "line",
+  data: {
+    labels: [],
+    datasets: [{
+      label: "Income",
+      data: [],
+      borderColor: "#00f0ff",
+      fill: false
+    }]
+  }
+});
