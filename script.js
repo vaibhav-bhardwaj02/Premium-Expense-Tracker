@@ -31,3 +31,5 @@ document.querySelectorAll(".nav-links a").forEach(link => {
     document.querySelector("." + section).style.display = "block";
   });
 });
+// Charts 
+const ctxLine = document.getElementById("overviewLine").getContext("2d");
