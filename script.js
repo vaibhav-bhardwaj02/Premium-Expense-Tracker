@@ -43,5 +43,12 @@ let lineChart = new Chart(ctxLine, {
       borderColor: "#00f0ff",
       fill: false
     }]
+  },
+  options: {
+  plugins: { legend: { labels: { color: "#fff" } } },
+  scales: { 
+    x: { ticks: { color: "#fff" } }, 
+    y: { ticks: { color: "#fff" } } 
   }
+}
 });
