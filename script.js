@@ -52,3 +52,5 @@ let lineChart = new Chart(ctxLine, {
   }
 }
 });
+// Pie chart (Overview)
+const ctxPie = document.getElementById("overviewPie").getContext("2d");
