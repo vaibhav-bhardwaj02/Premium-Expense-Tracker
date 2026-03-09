@@ -54,3 +54,13 @@ let lineChart = new Chart(ctxLine, {
 });
 // Pie chart (Overview)
 const ctxPie = document.getElementById("overviewPie").getContext("2d");
+let pieChart = new Chart(ctxPie, {
+  type: "pie",
+  data: {
+    labels: ["Income","Expense"],
+    datasets: [{
+      data: [0,0],
+      backgroundColor: ["#00f0ff","#ff5b6b"]
+    }]
+  }
+});
