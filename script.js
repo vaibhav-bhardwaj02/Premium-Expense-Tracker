@@ -62,5 +62,8 @@ let pieChart = new Chart(ctxPie, {
       data: [0,0],
       backgroundColor: ["#00f0ff","#ff5b6b"]
     }]
-  }
+  },
+  options: {
+  plugins: { legend: { labels: { color: "#fff" } } }
+}
 });
