@@ -69,3 +69,14 @@ let pieChart = new Chart(ctxPie, {
 });
 // Income chart
 const ctxIncome = document.getElementById("incomeChart").getContext("2d");
+let incomeChart = new Chart(ctxIncome, {
+  type: "bar",
+  data: { 
+    labels: [], 
+    datasets: [{ 
+      label: "Income", 
+      data: [], 
+      backgroundColor: "#00f0ff" 
+    }] 
+  }
+});
