@@ -67,3 +67,5 @@ let pieChart = new Chart(ctxPie, {
   plugins: { legend: { labels: { color: "#fff" } } }
 }
 });
+// Income chart
+const ctxIncome = document.getElementById("incomeChart").getContext("2d");
