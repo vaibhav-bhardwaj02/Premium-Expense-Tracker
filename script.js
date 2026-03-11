@@ -87,3 +87,5 @@ let incomeChart = new Chart(ctxIncome, {
   }
 }
 });
+// Expense chart
+const ctxExpense = document.getElementById("expenseChart").getContext("2d");
