@@ -78,5 +78,12 @@ let incomeChart = new Chart(ctxIncome, {
       data: [], 
       backgroundColor: "#00f0ff" 
     }] 
+  },
+  options: {
+  plugins: { legend: { labels: { color: "#fff" } } },
+  scales: { 
+    x: { ticks: { color: "#fff" } }, 
+    y: { ticks: { color: "#fff" } } 
   }
+}
 });
