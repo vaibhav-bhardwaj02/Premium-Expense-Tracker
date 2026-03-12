@@ -98,5 +98,12 @@ let expenseChart = new Chart(ctxExpense, {
       data: [],
       backgroundColor: "#ff5b6b"
     }]
+  },
+  options: {
+  plugins: { legend: { labels: { color: "#fff" } } },
+  scales: {
+    x: { ticks: { color: "#fff" } },
+    y: { ticks: { color: "#fff" } }
   }
+}
 });
