@@ -89,3 +89,14 @@ let incomeChart = new Chart(ctxIncome, {
 });
 // Expense chart
 const ctxExpense = document.getElementById("expenseChart").getContext("2d");
+let expenseChart = new Chart(ctxExpense, {
+  type: "bar",
+  data: {
+    labels: [],
+    datasets: [{
+      label: "Expense",
+      data: [],
+      backgroundColor: "#ff5b6b"
+    }]
+  }
+});
