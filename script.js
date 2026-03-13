@@ -107,3 +107,7 @@ let expenseChart = new Chart(ctxExpense, {
   }
 }
 });
+// Add Income --------------------------------------------------
+document.getElementById("addIncome").addEventListener("click", () => {
+
+});
