@@ -112,4 +112,6 @@ document.getElementById("addIncome").addEventListener("click", () => {
 const name = document.getElementById("incomeName").value;
 const amount = parseFloat(document.getElementById("incomeAmount").value);
 const date = new Date().toISOString().split("T")[0];
+
+if (!name || !amount) return;
 });
