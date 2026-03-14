@@ -114,4 +114,8 @@ const amount = parseFloat(document.getElementById("incomeAmount").value);
 const date = new Date().toISOString().split("T")[0];
 
 if (!name || !amount) return;
+
+const transaction = { name, amount, date, type: "Income" };
+incomeTransactions.push(transaction);
+allTransactions.push(transaction);
 });
