@@ -118,4 +118,6 @@ if (!name || !amount) return;
 const transaction = { name, amount, date, type: "Income" };
 incomeTransactions.push(transaction);
 allTransactions.push(transaction);
+
+updateUI();
 });
