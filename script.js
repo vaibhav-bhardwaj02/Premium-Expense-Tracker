@@ -120,4 +120,9 @@ incomeTransactions.push(transaction);
 allTransactions.push(transaction);
 
 updateUI();
+
+// Clear the input fields after adding
+  document.getElementById("incomeName").value = "";
+  document.getElementById("incomeAmount").value = "";
+
 });
