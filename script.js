@@ -126,3 +126,9 @@ updateUI();
   document.getElementById("incomeAmount").value = "";
 
 });
+// Add Expense --------------------------------------------------
+document.getElementById("addExpense").addEventListener("click", () => {
+  const name = document.getElementById("expenseName").value;
+  const amount = parseFloat(document.getElementById("expenseAmount").value);
+  const date = new Date().toISOString().split("T")[0];
+});
