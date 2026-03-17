@@ -133,4 +133,8 @@ document.getElementById("addExpense").addEventListener("click", () => {
   const date = new Date().toISOString().split("T")[0];
 
   if (!name || !amount) return;
+
+const transaction = { name, amount, date, type: "Expense" };
+expenseTransactions.push(transaction);
+allTransactions.push(transaction);
 });
