@@ -137,4 +137,7 @@ document.getElementById("addExpense").addEventListener("click", () => {
 const transaction = { name, amount, date, type: "Expense" };
 expenseTransactions.push(transaction);
 allTransactions.push(transaction);
+
+updateUI();
+
 });
