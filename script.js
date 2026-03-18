@@ -140,5 +140,7 @@ allTransactions.push(transaction);
 
 updateUI();
 
-
+// Clear the input fields after adding
+document.getElementById("expenseName").value = "";
+document.getElementById("expenseAmount").value = "";
 });
