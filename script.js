@@ -149,4 +149,8 @@ function updateUI() {
   const totalIncome = incomeTransactions.reduce((sum,t)=>sum+t.amount,0);
   const totalExpense = expenseTransactions.reduce((sum,t)=>sum+t.amount,0);
   const balance = totalIncome - totalExpense;
+
+document.getElementById("totalIncome").innerText = "₹" + totalIncome;
+document.getElementById("totalExpense").innerText = "₹" + totalExpense;
+document.getElementById("balance").innerText = "₹" + balance;
 }
