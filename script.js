@@ -157,4 +157,9 @@ document.getElementById("balance").innerText = "₹" + balance;
 // History
 const historyList = document.getElementById("historyList");
 historyList.innerHTML = "";
+allTransactions.slice(-5).forEach(t=>{
+  const li = document.createElement("li");
+  li.innerHTML = `<span>${t.name} (${t.type})</span><span>₹${t.amount}</span>`;
+  historyList.appendChild(li);
+});
 }
