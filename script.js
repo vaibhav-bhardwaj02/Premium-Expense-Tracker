@@ -167,3 +167,6 @@ allTransactions.slice(-5).forEach(t=>{
 pieChart.data.datasets[0].data = [totalIncome,totalExpense];
 pieChart.update();
 }
+// Income List
+const incomeList = document.getElementById("incomeList");
+incomeList.innerHTML = "";
