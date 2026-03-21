@@ -162,4 +162,8 @@ allTransactions.slice(-5).forEach(t=>{
   li.innerHTML = `<span>${t.name} (${t.type})</span><span>₹${t.amount}</span>`;
   historyList.appendChild(li);
 });
+
+// Pie update
+pieChart.data.datasets[0].data = [totalIncome,totalExpense];
+pieChart.update();
 }
