@@ -173,4 +173,7 @@ incomeList.innerHTML = "";
 incomeTransactions.forEach((t,index)=>{
   const li = document.createElement("li");
   li.innerHTML = `<span>${t.name} - ₹${t.amount}</span>`;
+const delBtn = document.createElement("button");
+delBtn.textContent = "Delete";
+
 }
