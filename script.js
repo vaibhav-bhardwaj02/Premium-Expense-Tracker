@@ -166,7 +166,11 @@ allTransactions.slice(-5).forEach(t=>{
 // Pie update
 pieChart.data.datasets[0].data = [totalIncome,totalExpense];
 pieChart.update();
-}
+
 // Income List
 const incomeList = document.getElementById("incomeList");
 incomeList.innerHTML = "";
+incomeTransactions.forEach((t,index)=>{
+  const li = document.createElement("li");
+  li.innerHTML = `<span>${t.name} - ₹${t.amount}</span>`;
+}
