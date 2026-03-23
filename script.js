@@ -185,5 +185,8 @@ delBtn.addEventListener("click", ()=>{
   ));
   updateUI();
 });
+li.appendChild(delBtn);
+incomeList.appendChild(li);
+});
 
 }
