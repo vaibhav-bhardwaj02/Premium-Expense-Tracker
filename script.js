@@ -175,5 +175,15 @@ incomeTransactions.forEach((t,index)=>{
   li.innerHTML = `<span>${t.name} - ₹${t.amount}</span>`;
 const delBtn = document.createElement("button");
 delBtn.textContent = "Delete";
+delBtn.addEventListener("click", ()=>{
+  incomeTransactions.splice(index,1);
+  allTransactions = allTransactions.filter(x=>!(
+    x.type==="Income" &&
+    x.name===t.name &&
+    x.amount===t.amount &&
+    x.date===t.date
+  ));
+  updateUI();
+});
 
 }
