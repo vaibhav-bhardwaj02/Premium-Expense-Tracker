@@ -189,4 +189,9 @@ li.appendChild(delBtn);
 incomeList.appendChild(li);
 });
 
+// Expense List
+const expenseList = document.getElementById("expenseList");
+expenseList.innerHTML = "";
+
+
 }
