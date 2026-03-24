@@ -192,6 +192,8 @@ incomeList.appendChild(li);
 // Expense List
 const expenseList = document.getElementById("expenseList");
 expenseList.innerHTML = "";
-
+expenseTransactions.forEach((t,index)=>{
+  const li = document.createElement("li");
+  li.innerHTML = `<span>${t.name} - ₹${t.amount}</span>`;
 
 }
