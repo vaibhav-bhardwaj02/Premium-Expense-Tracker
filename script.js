@@ -207,5 +207,8 @@ delBtn.addEventListener("click", ()=>{
   ));
   updateUI();
 });
+li.appendChild(delBtn);
+expenseList.appendChild(li);
+});
 
 }
