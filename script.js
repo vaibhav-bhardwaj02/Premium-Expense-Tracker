@@ -197,5 +197,15 @@ expenseTransactions.forEach((t,index)=>{
   li.innerHTML = `<span>${t.name} - ₹${t.amount}</span>`;
 const delBtn = document.createElement("button");
 delBtn.textContent = "Delete";
+delBtn.addEventListener("click", ()=>{
+  expenseTransactions.splice(index,1);
+  allTransactions = allTransactions.filter(x=>!(
+    x.type==="Expense" &&
+    x.name===t.name &&
+    x.amount===t.amount &&
+    x.date===t.date
+  ));
+  updateUI();
+});
 
 }
